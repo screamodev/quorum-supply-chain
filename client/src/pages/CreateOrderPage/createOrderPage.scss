@@ -1,0 +1,39 @@
+.create-order-page {
+  @apply w-[70%] flex justify-around;
+
+  .create-order {
+    @apply flex flex-col items-center;
+
+    form {
+      @apply flex flex-col bg-neutral-800 p-6 rounded;
+
+      label {
+        @apply flex flex-col m-1;
+      }
+
+      .upload-file-input {
+        @apply bg-neutral-900 text-white border-none;
+      }
+
+      .form-button {
+        @apply p-2 bg-neutral-600 hover:bg-green-500 my-4 rounded;
+      }
+
+      .disabled-button {
+        @apply p-2 bg-neutral-600 my-4 rounded;
+      }
+    }
+  }
+
+  .recipients-list-wrapper {
+    @apply flex flex-col items-center;
+
+    .recipients-list {
+      @apply text-lg;
+
+      .recipients-list-item {
+        @apply rounded-xl bg-neutral-600 font-bold p-1 mb-1;
+      }
+    }
+  }
+}
