@@ -5,3 +5,4 @@
 ./.idea
 
 ./truffle/.env
+./truffle/build
