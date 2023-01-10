@@ -1,0 +1,5 @@
+./client/node_modules
+./truffle/node_modules
+
+./quorum-examples
+./.idea
