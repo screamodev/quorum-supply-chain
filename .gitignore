@@ -3,3 +3,5 @@
 
 ./quorum-examples
 ./.idea
+
+./truffle/.env
