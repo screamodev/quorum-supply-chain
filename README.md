@@ -34,6 +34,15 @@ oNspPPgszVUFw0qmGFfWwh1uxVUXgvBxleXORHj07g8=
 oNspPPgszVUFw0qmGFfWwh1uxVUXgvBxleXORHj07g8=
 ...
 ```
+For interacting with other nodes you should change node and tessera port in EthProvider.jsx
+```
+  const web3default = new Web3("http://localhost:22006"); //node-7
+      const web3 = new Web3Quorum(
+        web3default,
+        "http://localhost:9088", //tessera node-7
+        true,
+      );
+```
 
 ### Prerequisites
 
